@@ -1,0 +1,136 @@
+
+/* General Styles */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f7fafc;
+  color: #2d3748;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.recurring-date-picker {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.recurring-date-picker h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1a202c;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* DatePicker Styles */
+.date-picker label {
+  font-size: 18px;
+  font-weight: 500;
+  color: #4a5568;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.date-picker .rdrDateRangeWrapper {
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.date-picker .rdrCalendarWrapper {
+  padding: 10px;
+}
+
+/* Recurrence Options Styles */
+.recurrence-options {
+  margin-top: 20px;
+}
+
+.recurrence-options label {
+  font-size: 18px;
+  font-weight: 500;
+  color: #4a5568;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.recurrence-options select,
+.recurrence-options input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background-color: #edf2f7;
+  color: #2d3748;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.recurrence-options select:focus,
+.recurrence-options input[type="number"]:focus {
+  border-color: #5190ca;
+}
+
+/* Preview Calendar Styles */
+.preview-calendar {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.preview-calendar h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 20px;
+}
+
+.preview-calendar .rdrCalendarWrapper {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background-color: #f7fafc;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Buttons (If any) */
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #d8a087;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #111213;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .recurring-date-picker {
+      padding: 15px;
+  }
+
+  .recurring-date-picker h2 {
+      font-size: 22px;
+  }
+
+  .preview-calendar h3 {
+      font-size: 18px;
+  }
+}
+
