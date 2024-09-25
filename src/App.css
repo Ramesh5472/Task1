@@ -70,14 +70,14 @@ body {
   border: 1px solid #e2e8f0;
   border-radius: 8px;
   background-color: #edf2f7;
-  color: #2d3748;
+  color: #03070e;
   outline: none;
   transition: border-color 0.3s ease;
 }
 
 .recurrence-options select:focus,
 .recurrence-options input[type="number"]:focus {
-  border-color: #5190ca;
+  border-color: #090a0b;
 }
 
 /* Preview Calendar Styles */
@@ -89,7 +89,7 @@ body {
 .preview-calendar h3 {
   font-size: 20px;
   font-weight: 600;
-  color: #2d3748;
+  color: #080a0d;
   margin-bottom: 20px;
 }
 
@@ -108,7 +108,7 @@ button {
   padding: 10px 20px;
   font-size: 16px;
   color: #ffffff;
-  background-color: #d8a087;
+  background-color: #ce6332;
   border: none;
   border-radius: 8px;
   cursor: pointer;
